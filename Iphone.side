@@ -1,0 +1,472 @@
+{
+  "id": "a8e8310e-163c-402f-8f8e-95a7cd7957c3",
+  "version": "2.0",
+  "name": "Iphone",
+  "url": "https://www.flipkart.com/",
+  "tests": [{
+    "id": "ba1150c3-49f2-441f-91a9-1a506c5b285b",
+    "name": "iphone",
+    "commands": [{
+      "id": "7e51423d-9801-4cf5-92c1-e493d31bb8a1",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flipkart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "677d7eba-70c5-4b3a-8a80-1c48179ac6da",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1382x744",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f7b2971d-99f3-446a-abbc-4d4fec03937d",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.LM6RPg", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0573fbd1-5d77-4d3d-8562-b8235a964e1a",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.LM6RPg", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "iphone"
+    }, {
+      "id": "fb4987fd-1a2b-42b9-a0d6-862fecb973bc",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.LM6RPg", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "f14adfd3-c80b-458d-a023-fa7c70817d4e",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.bhgxx2:nth-child(2) div:nth-child(2) .Zhf2z- > div:nth-child(1) > div",
+      "targets": [
+        ["css=.bhgxx2:nth-child(2) div:nth-child(2) .Zhf2z- > div:nth-child(1) > div", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div[2]/div[2]/div/div[2]/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e2a407d-6c9a-4e5f-9a27-d2ad64c14c2c",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.bhgxx2:nth-child(2) div:nth-child(2) .Zhf2z- > div:nth-child(1) > div",
+      "targets": [
+        ["css=.bhgxx2:nth-child(2) div:nth-child(2) .Zhf2z- > div:nth-child(1) > div", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div[2]/div[2]/div/div[2]/div/a/div/div", "xpath:idRelative"],
+        ["xpath=//div[2]/div/a/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "41f787a1-1e38-486d-9370-398033214f01",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.bhgxx2:nth-child(2) > .\\_3O0U0u > div:nth-child(1) .\\_1Nyybr",
+      "targets": [
+        ["css=.bhgxx2:nth-child(2) > .\\_3O0U0u > div:nth-child(1) .\\_1Nyybr", "css:finder"],
+        ["xpath=//img[@alt='Apple iPhone SE (Black, 64 GB)']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div[2]/div[2]/div/div/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1440e09a-a10c-4c45-bc3f-6e1da50fc728",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.bhgxx2:nth-child(2) > .\\_3O0U0u > div:nth-child(1) .\\_1Nyybr",
+      "targets": [
+        ["css=.bhgxx2:nth-child(2) > .\\_3O0U0u > div:nth-child(1) .\\_1Nyybr", "css:finder"],
+        ["xpath=//img[@alt='Apple iPhone SE (Black, 64 GB)']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div[2]/div[2]/div/div/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "71aed6d3-2422-4fc4-abeb-c9b96dcec14a",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "linkText=Apple iPhone SE (White, 64 GB)",
+      "targets": [
+        ["linkText=Apple iPhone SE (White, 64 GB)", "linkText"],
+        ["css=.bhgxx2:nth-child(2) div:nth-child(3) .\\_2cLu-l", "css:finder"],
+        ["xpath=//a[contains(text(),'Apple iPhone SE (White, 64 GB)')]", "xpath:link"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div[2]/div[2]/div/div[3]/div/a[2]", "xpath:idRelative"],
+        ["xpath=(//a[contains(@href, '/apple-iphone-se-white-64-gb/p/itmaf546e27c4eaf?pid=MOBFRFXHMEZRCXRV&lid=LSTMOBFRFXHMEZRCXRVDHSVH1&marketplace=FLIPKART&srno=s_1_3&otracker=search&otracker1=search&fm=SEARCH&iid=b6e2439e-bfb2-4d9b-a82f-4f46691d37f6.MOBFRFXHMEZRCXRV.SEARCH&ppt=sp&ppn=sp&ssid=ambasddozk0000001594623835669&qH=0b3f45b266a97d70')])[2]", "xpath:href"],
+        ["xpath=//div[3]/div/a[2]", "xpath:position"],
+        ["xpath=//a[contains(.,'Apple iPhone SE (White, 64 GB)')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "23be17a8-01e6-46bf-b7b2-767dce538ada",
+      "comment": "",
+      "command": "type",
+      "target": "//*[@id=\"container\"]/div/div[3]/div[2]/div[1]/div[2]/div[2]/div/div[1]/div/a[2]",
+      "targets": [],
+      "value": "\"Apple iPhone SE (Black, 64 GB)\""
+    }]
+  }, {
+    "id": "739f79b6-2f8e-4007-8d38-f429702e485b",
+    "name": "Sign In flipkart",
+    "commands": [{
+      "id": "589ba4d3-138d-403d-8c76-895529e26c5d",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flipkart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "0374df89-3cb9-4db0-a6f4-b4844322a86e",
+      "comment": "",
+      "command": "clickAt",
+      "target": "//*[@id=\"container\"]/div/div[1]/div[1]/div[2]/div[3]/div/div/div/a",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "0d72ce7a-7cb2-4cd1-a2a3-2b5118fc4f22",
+    "name": "Book in sale narzo 10",
+    "commands": [{
+      "id": "2b721149-4071-46bb-9aa9-41e13ea423f0",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flipkart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "533b2e69-371c-4665-a4d0-01dc1a9048d3",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "868x601",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1b29f698-cc75-45d9-bcff-0b07fba5e1aa",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.LM6RPg", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3086e480-406a-4fc6-8c92-dc4bf77c4ee5",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.LM6RPg", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "narzo 10"
+    }, {
+      "id": "6b7fd5b1-10f8-4a21-8dee-93b927765672",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.LM6RPg", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "cc687fec-a99f-417c-b197-70af62d5bdd6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bhgxx2:nth-child(2) .\\_3wU53n",
+      "targets": [
+        ["css=.bhgxx2:nth-child(2) .\\_3wU53n", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div[2]/div[2]/div/div/div/a/div[2]/div/div", "xpath:idRelative"],
+        ["xpath=//a/div[2]/div/div", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win2597",
+      "windowTimeout": 2000
+    }, {
+      "id": "a4028a39-1276-4406-a7a4-d831874ebb40",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win2597}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "17a2425b-5863-40fa-8490-631f06b35c0c",
+      "comment": "",
+      "command": "clickAt",
+      "target": "//*[@id=\"container\"]/div/div[3]/div[1]/div[1]/div[2]/div/button",
+      "targets": [],
+      "value": ""
+    }]
+  }, {
+    "id": "b9307d4b-1eba-4862-b1e7-a66287212e3c",
+    "name": "Buying a phone",
+    "commands": [{
+      "id": "e04add2b-8f06-45a8-ac1f-9d9e466d95be",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flipkart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5ab280dd-da2c-41f8-ba81-fadb2b702e37",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b86fd2bc-7a7e-4648-a6ed-d215d6c57b8b",
+      "comment": "",
+      "command": "click",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.LM6RPg", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8ff082e6-00d7-4ada-9617-39b052a50c7f",
+      "comment": "",
+      "command": "type",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.LM6RPg", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "redmi k20"
+    }, {
+      "id": "cfc27681-36b1-46e9-a3ee-6bc8500bf347",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "name=q",
+      "targets": [
+        ["name=q", "name"],
+        ["css=.LM6RPg", "css:finder"],
+        ["xpath=//input[@name='q']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[2]/form/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "7347dc02-16e2-45dd-8332-5957c217f7b8",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.bhgxx2:nth-child(2) > .\\_3O0U0u > div:nth-child(1) .\\_1Nyybr",
+      "targets": [
+        ["css=.bhgxx2:nth-child(2) > .\\_3O0U0u > div:nth-child(1) .\\_1Nyybr", "css:finder"],
+        ["xpath=//img[@alt='Redmi K20 (Carbon Black, 64 GB)']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div[2]/div[2]/div/div/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a787b18a-038d-4ba3-aee9-cdc334cbbc52",
+      "comment": "",
+      "command": "click",
+      "target": "css=.bhgxx2:nth-child(2) > .\\_3O0U0u > div:nth-child(1) .\\_1Nyybr",
+      "targets": [
+        ["css=.bhgxx2:nth-child(2) > .\\_3O0U0u > div:nth-child(1) .\\_1Nyybr", "css:finder"],
+        ["xpath=//img[@alt='Redmi K20 (Carbon Black, 64 GB)']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div[2]/div[2]/div/div/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/img", "xpath:position"]
+      ],
+      "value": "",
+      "opensWindow": true,
+      "windowHandleName": "win7051",
+      "windowTimeout": 2000
+    }, {
+      "id": "2b5ba140-d914-400e-887a-f5852e9225fc",
+      "comment": "",
+      "command": "storeWindowHandle",
+      "target": "root",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "5852859c-1ce0-4b6d-9944-a56058c45e20",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7051}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "40a50c3e-f48f-444b-8aec-ed8448a0e066",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${root}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9bfe62ed-fb4d-4664-bc3e-df82ca38d775",
+      "comment": "",
+      "command": "mouseOut",
+      "target": "css=.bhgxx2:nth-child(2) > .\\_3O0U0u > div:nth-child(1) .\\_1Nyybr",
+      "targets": [
+        ["css=.bhgxx2:nth-child(2) > .\\_3O0U0u > div:nth-child(1) .\\_1Nyybr", "css:finder"],
+        ["xpath=//img[@alt='Redmi K20 (Carbon Black, 64 GB)']", "xpath:img"],
+        ["xpath=//div[@id='container']/div/div[3]/div[2]/div/div[2]/div[2]/div/div/div/a/div/div/div/img", "xpath:idRelative"],
+        ["xpath=//div/div/div/img", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "49e6679d-80d0-4af8-8565-6fa65edaa133",
+      "comment": "",
+      "command": "selectWindow",
+      "target": "handle=${win7051}",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "81413cc7-deae-4744-92fc-b1ab7ef30bc3",
+      "comment": "",
+      "command": "mouseOver",
+      "target": "css=.\\_2kuvG8",
+      "targets": [
+        ["css=.\\_2kuvG8", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div/ul/li[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,' BUY NOW')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1855c74b-0e4b-4c9e-b118-34ddbf2dd121",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2kuvG8",
+      "targets": [
+        ["css=.\\_2kuvG8", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div[2]/div/ul/li[2]/form/button", "xpath:idRelative"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,' BUY NOW')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "945040fd-7321-47c5-a0ad-880745af1e11",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2AkmmA",
+      "targets": [
+        ["css=.\\_2AkmmA", "css:finder"],
+        ["xpath=//div[@id='CNTCT64009933867848BFA5CDA4E6E']/button", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/button", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "3f1b279f-d233-49a0-a4d4-28a31fcf130a",
+    "name": "Logout",
+    "commands": [{
+      "id": "ea699f29-46f9-40c8-9d42-9d2592f3530b",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.flipkart.com/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ca7a362d-2229-41eb-8141-752332e4236d",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1050x708",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "b772c0ab-b876-4e46-9bb2-61b367771ddf",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1jA3uo:nth-child(3) .\\_2aUbKa",
+      "targets": [
+        ["css=.\\_1jA3uo:nth-child(3) .\\_2aUbKa", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[3]/div/div/div/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "02cb31c9-8374-4376-86e6-29bb2e17c892",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1jA3uo:nth-child(3) > .dHGf8H",
+      "targets": [
+        ["css=.\\_1jA3uo:nth-child(3) > .dHGf8H", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[3]/div", "xpath:idRelative"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "4907d492-ea63-4c75-b897-ae0009baccef",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=My Profile",
+      "targets": [
+        ["linkText=My Profile", "linkText"],
+        ["css=.\\_1-qoxT:nth-child(1) > .\\_2k68Dy", "css:finder"],
+        ["xpath=//div[@id='container']/div/div/div/div[2]/div[3]/div/div/div[2]/div[2]/div/ul/li/a", "xpath:idRelative"],
+        ["xpath=//a[contains(@href, '/account/?rd=0&link=home_account')]", "xpath:href"],
+        ["xpath=//li/a", "xpath:position"],
+        ["xpath=//a[contains(.,'My Profile')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "f4c86121-77fb-4a42-880a-da4685187df6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_2ACZMj:nth-child(7) .\\_2ZZi8V",
+      "targets": [
+        ["css=.\\_2ACZMj:nth-child(7) .\\_2ZZi8V", "css:finder"],
+        ["xpath=//div[@id='container']/div/div[3]/div/div/div/div[2]/div[7]/div/span", "xpath:idRelative"],
+        ["xpath=//div[7]/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Logout')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "59299718-8a72-4409-8b9b-4d345f135c39",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["https://www.flipkart.com/"],
+  "plugins": []
+}
